@@ -1,0 +1,22 @@
+# Xcode
+*.xcuserstate
+*.xcworkspace/xcuserdata/
+xcuserdata/
+
+# ビルド成果物
+build/
+DerivedData/
+
+# macOSのゴミ
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# APIキー
+*.xcconfig
+Secrets.plist
+
+# Firebase導入時に追加
+GoogleService-Info.plist
